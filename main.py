@@ -116,7 +116,7 @@ def main():
         for line in f:
             line = line.strip()
             if line:
-                plt.show
+                plt.show()
                 sessions.append(json.loads(line))
               
     build_and_save_graphs(sessions, base_dir / "analysis_plots")
